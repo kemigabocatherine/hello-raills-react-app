@@ -1,24 +1,49 @@
-# README
+# Hello rails react app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A React- Redux-Rails app that displays random greeting messages.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+To get a local copy of the project, follow these steps:
 
-* System dependencies
+1. Open the terminal and navigate to the folder where you would like to put these files.
 
-* Configuration
+2. Type the following commands into the terminal:
 
-* Database creation
+ git clone `https://github.com/kemigabocatherine/hello-raills-react-app`
 
-* Database initialization
+  cd hello_rails_react_app
 
-* How to run the test suite
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+'npm install' or 'yarn install'
 
-* Deployment instructions
+rails db:create
 
-* ...
+rails db:migrate
+
+rails db:seed
+
+`rails s` to start the server locally
+
+## Author
+
+👤 **Kemigabo Catherine**
+
+- GitHub: [@githubhandle](https://github.com/kemigabocatherine)
+- Twitter: [@twitterhandle](https://twitter.com/home?lang=en)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kemigabocatherine/)
+
+## 🤝 Contribution
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/kemigabocatherine/hello-raills-react-app/issues).
+
+## Show your support
+
+Give a :+1: if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
